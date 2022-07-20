@@ -20,6 +20,29 @@ body {
   list-style: none;
 }
 
+.yellow {
+  color: var(--secondary);
+}
+
 nav {
   background: linear-gradient(180deg, #010101 26.56%, rgba(33, 33, 33, 0) 99.48%);
+}
+
+li:hover {
+  color: var(--secondary);
+}
+
+#footer {
+  transition: all ease 0.4s;
+}
+
+
+#github:hover, #linkedin:hover {
+  color: var(--secondary);
+  transform: translateY(-2px);
+}
+
+#home {
+  background: radial-gradient(42.86% 2834% at 25.64% 142.86%, #212121 69.79%, rgba(33, 33, 33, 0.1) 99.6%);
+  border-radius: 2px;
 }
