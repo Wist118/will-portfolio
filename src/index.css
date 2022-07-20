@@ -46,3 +46,11 @@ li:hover {
   background: radial-gradient(42.86% 2834% at 25.64% 142.86%, #212121 69.79%, rgba(33, 33, 33, 0.1) 99.6%);
   border-radius: 2px;
 }
+
+button {
+  background-color: var(--secondary);
+}
+
+button:hover {
+  background-color: #212121;
+}
