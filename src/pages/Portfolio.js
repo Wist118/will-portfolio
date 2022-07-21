@@ -10,7 +10,7 @@ const Portfolio = () => {
                     <div className="max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
                     <div className='flex flex-col justify-center items-center'>
                         <div className='text-4xl flex items-end w-full justify-center md:justify-start md:-mt-5 ml-8 px-2 pb-5' id="portfolio">Portfolio 
-                            <span className='yellow text-3xl font-semibold ml-2'>& Technologies</span>
+                            <span className='yellow text-3xl font-semibold ml-2'>and technologies</span>
                         </div>
                     
 
