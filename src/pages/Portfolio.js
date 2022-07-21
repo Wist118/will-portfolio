@@ -6,45 +6,18 @@ const Portfolio = () => {
     return (
         <div>
             <Layout>
-                <div className='grid mt-10 mx-5'>
-                    <div className=''>
-                        <div className='text-left text-4xl'>Portfolio <span className='yellow text-3xl font-semibold'>& Technologies</span></div>
-                    </div>
-
-                    {/* Container for project begin*/}
-                    <div className='lg:grid lg:grid-cols-2 gap-4'>
-                        <div>
-                            <div className='relative mt-8'>
-                                <img src={HelloWorld} alt='hello world homepage'></img>
-                                <button className='absolute h-10 w-52 bottom-0 rounded-t-md text-2xl text-center pl-2 md:text-3xl'>
-                                    <a href='https://ut-hello-world.herokuapp.com/'>HelloWorld</a>
-                                </button>
-                            </div>
-                            <div className='mt-1 text-lg font-semibold underline md:text-xl'>Project built with:</div>
-                            <ul className='grid grid-cols-2 text-base leading-5 font-semibold'>
-                                <li>React</li>
-                                <li>Express</li>
-                                <li>MongoDB</li>
-                                <li>Apollo Server</li>
-                                <li>React</li>
-                                <li>Express</li>
-                                <li>MongoDB</li>
-                                <li>Apollo Server</li>
-                            </ul>
+                <div className='grid mt-10 px-5 w-full justify-center'>
+                    <div className="max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
+                    <div className='flex flex-col justify-center items-center'>
+                        <div className='text-4xl flex items-end w-full justify-center md:justify-start md:-mt-5 ml-8 px-2 pb-5' id="portfolio">Portfolio 
+                            <span className='yellow text-3xl font-semibold ml-2'>& Technologies</span>
                         </div>
-                        {/* Container for project end*/}
-
+                    
 
                         {/* Container for project begin*/}
-                        <div>
-                            <div className='relative mt-8'>
-                                <img src={HelloWorld} alt='hello world homepage'></img>
-                                <button className='absolute h-10 w-52 bottom-0 rounded-t-md text-2xl text-center pl-2 md:text-3xl'>
-                                    <a href='https://ut-hello-world.herokuapp.com/'>HelloWorld</a>
-                                </button>
-                            </div>
-                            <div className='mt-1 text-lg font-semibold underline md:text-xl'>Project built with:</div>
-                            <ul className='grid grid-cols-2 text-base leading-5 font-semibold'>
+                        <div className='grid grid-cols-6 mx-2 px-2'>
+
+                            <ul className='cursor-default list-disc list-inside col-span-2 text-sm leading-4 sm:text-base lg:text-lg pl-2 pt-5' id="portfolio-list">
                                 <li>React</li>
                                 <li>Express</li>
                                 <li>MongoDB</li>
@@ -54,11 +27,19 @@ const Portfolio = () => {
                                 <li>MongoDB</li>
                                 <li>Apollo Server</li>
                             </ul>
-                        </div>
-                        {/* Container for project end*/}
+                        
+                            <div className='col-span-4 relative pt-5'>
+                                <img src={HelloWorld} alt='hello world homepage'></img>
+                                <button className='absolute h-8 w-36 md:h-10 md:w-40 lg:h-12 lg:w-44 bottom-0 right-0 text-xl md:text-3xl'>
+                                    <a href='https://ut-hello-world.herokuapp.com/'>HelloWorld</a>
+                                </button>
+                            </div>
+                       
+                            {/* Container for project end*/}
 
+                        </div>
                     </div>
-                    
+                    </div>
                 </div>
             </Layout>
         </div>

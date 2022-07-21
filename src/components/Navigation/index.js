@@ -25,25 +25,25 @@ const Navigation = ({ fixed }) => {
 
             <ul className="flex flex-col pt-10 md:pt-0 items-center justify-end md:h-16 md:flex-row list-none lg:ml-auto w-full">
 
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-3" id="topNav">
                 <Link to="/about" className="px-3 pb-2 md:py-1 flex">
                   <span>ABOUT</span>
                 </Link>
               </li>
 
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-3" id="topNav">
                 <Link to="/portfolio" className="px-2 py-2 md:py-1 flex">
                   <span>PORTFOLIO</span>
                 </Link>
               </li>
 
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-3" id="topNav">
                 <Link to='/resume' className="px-3 py-2 md:py-1 flex">
                   <span>RESUME</span>
                 </Link>
               </li>
 
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-3" id="topNav">
                 <Link to='/contact' className="px-3 pt-2 md:py-1 flex">
                   <span>CONTACT</span>
                 </Link>
