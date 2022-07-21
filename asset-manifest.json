@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/will-portfolio/static/css/main.84b86179.css",
+    "main.js": "/will-portfolio/static/js/main.9631cf0e.js",
+    "static/js/787.989ba64d.chunk.js": "/will-portfolio/static/js/787.989ba64d.chunk.js",
+    "static/media/portfolio-background.jpg": "/will-portfolio/static/media/portfolio-background.4af070386dbb7acb4e83.jpg",
+    "static/media/helloworld-img.png": "/will-portfolio/static/media/helloworld-img.57e714510ad7afa2f472.png",
+    "index.html": "/will-portfolio/index.html",
+    "main.84b86179.css.map": "/will-portfolio/static/css/main.84b86179.css.map",
+    "main.9631cf0e.js.map": "/will-portfolio/static/js/main.9631cf0e.js.map",
+    "787.989ba64d.chunk.js.map": "/will-portfolio/static/js/787.989ba64d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84b86179.css",
+    "static/js/main.9631cf0e.js"
+  ]
+}
