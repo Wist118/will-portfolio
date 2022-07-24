@@ -19,13 +19,12 @@ const Portfolio = () => {
 
                             <ul className='cursor-default list-disc list-inside col-span-2 text-sm leading-4 sm:text-base lg:text-lg pl-2 pt-5' id="portfolio-list">
                                 <li>React</li>
-                                <li>Express</li>
+                                <li>Express.js</li>
                                 <li>MongoDB</li>
                                 <li>Apollo Server</li>
-                                <li>React</li>
-                                <li>Express</li>
-                                <li>MongoDB</li>
-                                <li>Apollo Server</li>
+                                <li>Node.js</li>
+                                <li>GraphQL</li>
+                                <li>Tailwind</li>
                             </ul>
                         
                             <div className='col-span-4 relative pt-5'>
