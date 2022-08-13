@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/will-portfolio/static/css/main.84b86179.css",
-    "main.js": "/will-portfolio/static/js/main.c23a6038.js",
+    "main.css": "/will-portfolio/static/css/main.5325b2a8.css",
+    "main.js": "/will-portfolio/static/js/main.06a818cb.js",
     "static/js/787.989ba64d.chunk.js": "/will-portfolio/static/js/787.989ba64d.chunk.js",
     "static/media/portfolio-background.jpg": "/will-portfolio/static/media/portfolio-background.4af070386dbb7acb4e83.jpg",
-    "static/media/helloworld-img.png": "/will-portfolio/static/media/helloworld-img.57e714510ad7afa2f472.png",
+    "static/media/slick.svg": "/will-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/will-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/will-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/will-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/will-portfolio/index.html",
-    "main.84b86179.css.map": "/will-portfolio/static/css/main.84b86179.css.map",
-    "main.c23a6038.js.map": "/will-portfolio/static/js/main.c23a6038.js.map",
+    "main.5325b2a8.css.map": "/will-portfolio/static/css/main.5325b2a8.css.map",
+    "main.06a818cb.js.map": "/will-portfolio/static/js/main.06a818cb.js.map",
     "787.989ba64d.chunk.js.map": "/will-portfolio/static/js/787.989ba64d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84b86179.css",
-    "static/js/main.c23a6038.js"
+    "static/css/main.5325b2a8.css",
+    "static/js/main.06a818cb.js"
   ]
 }
