@@ -1,8 +1,10 @@
 import React from "react";
 import Layout from "../components/Layout";
-import HelloWorld from '../assets/helloworld-img.png';
+import ImageSlider from "../components/Carousel";
+import images from "../components/CarouselData";
 
 const Portfolio = () => {
+    console.log({images})
     return (
         <div>
             <Layout>
@@ -28,13 +30,15 @@ const Portfolio = () => {
                             </ul>
                         
                             <div className='col-span-4 relative pt-5'>
-                                <img src={HelloWorld} alt='hello world homepage'></img>
+                            <ImageSlider images={images}/>
                                 <button className='absolute h-8 w-36 md:h-10 md:w-40 lg:h-12 lg:w-44 bottom-0 right-0 text-xl md:text-3xl'>
                                     <a href='https://ut-hello-world.herokuapp.com/' target="_blank" rel="noreferrer noopener">HelloWorld</a>
                                 </button>
                             </div>
                        
                             {/* Container for project end*/}
+
+                            
 
                         </div>
                     </div>
